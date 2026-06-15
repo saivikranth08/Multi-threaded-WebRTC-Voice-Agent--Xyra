@@ -304,24 +304,6 @@ Navigate to `http://localhost:8000` in Chrome to open the HUD interface, verify 
 
 ---
 
-<h2 align="center">⚡ API & Event Schema</h2>
-
-### UI Data Channel Event Payload
-When function tools execute on the python backend, the assistant publishes a stringified JSON event over the WebRTC Data Channel on the topic `ui_events`:
-
-```json
-{
-  "type": "render_widget",
-  "widget": "weather",
-  "data": {
-    "location": "Chennai",
-    "result": "🌍 Weather in Chennai, IN:\n☀️ Condition: Clear\n🌡️ Temperature: 32°C\n💧 Humidity: 65%\n📍 Coordinates: 13.0827,80.2707"
-  }
-}
-```
-
----
-
 <h2 align="center">📝 License</h2>
 
 <div align="center">
