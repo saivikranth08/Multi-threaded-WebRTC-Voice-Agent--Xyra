@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: xyra_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: ${DB_USER:-xyra_admin}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-xyra_secure_password}
+      POSTGRES_DB: ${DB_NAME:-xyra_db}
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER:-xyra_admin} -d $${POSTGRES_DB:-xyra_db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - xyra_network
+
+  redis:
+    image: redis:7-alpine
+    container_name: xyra_redis
+    restart: always
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - xyra_network
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  xyra_network:
+    name: xyra_network
+    driver: bridge

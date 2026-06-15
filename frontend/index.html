@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYRA — Voice AI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/livekit-client@1.15.4/dist/livekit-client.umd.min.js"></script>
+</head>
+<body>
+    <!-- Full-screen 3D canvas -->
+    <canvas id="orb-canvas"></canvas>
+
+    <!-- Minimal UI Overlay -->
+    <div class="ui-overlay">
+        <div class="top-bar">
+            <div class="logo">XYRA</div>
+            <span id="status-badge" class="badge disconnected">Offline</span>
+        </div>
+
+        <div id="dashboard-container"></div>
+
+        <div class="bottom-bar">
+            <div class="visualizer">
+                <canvas id="wave-canvas"></canvas>
+            </div>
+            <button id="connect-btn" class="connect-btn">
+                <span class="btn-icon">⬤</span>
+                <span class="btn-text">Start Voice Session</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
