@@ -128,12 +128,12 @@ graph TB
 <table align="center">
 <tr>
 <td align="center" width="20%">
-<img src="https://global.discourse-cdn.com/standard17/uploads/threejs/original/2X/e/e4c369dd225e89d97034f71a067a9cfab53ec7cf.png" width="65" height="65"><br>
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/threejs.svg" width="65" height="65" style="filter: invert(1);"><br>
 <b>Three.js</b><br>
 <sub>WebGL Graphics</sub>
 </td>
 <td align="center" width="20%">
-<img src="https://raw.githubusercontent.com/livekit/livekit/main/docs/assets/livekit-logo-brand.png" width="65" height="65"><br>
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/livekit.svg" width="65" height="65" style="filter: invert(1);"><br>
 <b>LiveKit</b><br>
 <sub>WebRTC Voice SDK</sub>
 </td>
@@ -155,7 +155,7 @@ graph TB
 </tr>
 <tr>
 <td align="center" width="20%">
-<img src="https://cdn.worldvectorlogo.com/logos/playwright.svg" width="65" height="65"><br>
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/playwright.svg" width="65" height="65" style="filter: invert(1);"><br>
 <b>Playwright</b><br>
 <sub>Browser Automation</sub>
 </td>
