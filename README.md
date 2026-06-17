@@ -128,7 +128,7 @@ graph TB
 <table align="center">
 <tr>
 <td align="center" width="20%">
-<img src="https://unpkg.com/simple-icons@v11/icons/threejs.svg" width="65" height="65" style="filter: invert(1);"><br>
+<img src="https://unpkg.com/simple-icons@v11/icons/threedotjs.svg" width="65" height="65" style="filter: invert(1);"><br>
 <b>Three.js</b><br>
 <sub>WebGL Graphics</sub>
 </td>
