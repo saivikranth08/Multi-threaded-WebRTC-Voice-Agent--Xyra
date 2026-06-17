@@ -133,7 +133,7 @@ graph TB
 <sub>WebGL Graphics</sub>
 </td>
 <td align="center" width="20%">
-<img src="https://unpkg.com/simple-icons@v11/icons/livekit.svg" width="65" height="65" style="filter: invert(1);"><br>
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/livekit.svg" width="65" height="65" style="filter: invert(1);"><br>
 <b>LiveKit</b><br>
 <sub>WebRTC Voice SDK</sub>
 </td>
