@@ -133,7 +133,7 @@ graph TB
 <sub>WebGL Graphics</sub>
 </td>
 <td align="center" width="20%">
-<img src="https://raw.githubusercontent.com/lobehub/lobe-icons/main/packages/icons/assets/livekit/color.svg" width="65" height="65"><br>
+<img src="https://raw.githubusercontent.com/livekit/media-samples/main/livekit-logo.png" width="65" height="65"><br>
 <b>LiveKit</b><br>
 <sub>WebRTC Voice SDK</sub>
 </td>
@@ -155,7 +155,7 @@ graph TB
 </tr>
 <tr>
 <td align="center" width="20%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Playwright-Logo.svg" width="65" height="65"><br>
+<img src="https://raw.githubusercontent.com/microsoft/playwright.dev/main/static/img/playwright-logo.svg" width="65" height="65"><br>
 <b>Playwright</b><br>
 <sub>Browser Automation</sub>
 </td>
