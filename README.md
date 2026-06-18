@@ -128,7 +128,7 @@ graph TB
 <table align="center">
 <tr>
 <td align="center" width="20%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Three.js_Icon.svg" width="65" height="65"><br>
+<img src="https://raw.githubusercontent.com/mrdoob/three.js/master/files/favicon_white.ico" width="65" height="65"><br>
 <b>Three.js</b><br>
 <sub>WebGL Graphics</sub>
 </td>
